@@ -366,6 +366,7 @@
             this.btnExit.TabIndex = 0;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnSave
             // 
@@ -400,6 +401,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmEditStudent";
             this.Text = "frmEditStudent";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmEditStudent_FormClosing);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox4.ResumeLayout(false);

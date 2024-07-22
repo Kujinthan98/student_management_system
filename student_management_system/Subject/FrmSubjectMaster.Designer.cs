@@ -140,6 +140,7 @@
             this.btnExit.TabIndex = 0;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // groupBox4
             // 
@@ -261,6 +262,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmSubjectMaster";
             this.Text = "FrmSubject";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmSubjectMaster_FormClosing);
             this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvSubject)).EndInit();
             this.groupBox1.ResumeLayout(false);

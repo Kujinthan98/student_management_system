@@ -17,5 +17,22 @@ namespace student_management_system.Subject
             InitializeComponent();
         }
 
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void FrmSubjectMaster_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Do you want to clouse ?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.No)
+            {
+                this.Close();
+            }
+            else
+            {
+
+            }
+        }
     }
 }

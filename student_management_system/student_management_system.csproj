@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDashBord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashBord.Designer.cs">
+      <DependentUpon>frmDashBord.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student\createstudent.cs">
       <SubType>Form</SubType>
     </Compile>

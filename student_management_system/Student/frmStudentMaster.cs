@@ -55,5 +55,11 @@ namespace student_management_system.Student
 
             }
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            frmStudentEdit frmStudentEdit = new frmStudentEdit();
+            frmStudentEdit.ShowDialog();
+        }
     }
 }

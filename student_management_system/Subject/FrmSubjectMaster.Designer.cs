@@ -260,6 +260,8 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmSubjectMaster";
             this.Text = "FrmSubject";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmSubjectMaster_FormClosing);

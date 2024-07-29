@@ -60,21 +60,21 @@
             // studentToolStripMenuItem
             // 
             this.studentToolStripMenuItem.Name = "studentToolStripMenuItem";
-            this.studentToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.studentToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.studentToolStripMenuItem.Text = "Students";
             this.studentToolStripMenuItem.Click += new System.EventHandler(this.studentToolStripMenuItem_Click);
             // 
             // subjectsToolStripMenuItem
             // 
             this.subjectsToolStripMenuItem.Name = "subjectsToolStripMenuItem";
-            this.subjectsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.subjectsToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.subjectsToolStripMenuItem.Text = "Subjects";
             this.subjectsToolStripMenuItem.Click += new System.EventHandler(this.subjectsToolStripMenuItem_Click);
             // 
             // gradesToolStripMenuItem
             // 
             this.gradesToolStripMenuItem.Name = "gradesToolStripMenuItem";
-            this.gradesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.gradesToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.gradesToolStripMenuItem.Text = "Grades";
             this.gradesToolStripMenuItem.Click += new System.EventHandler(this.gradesToolStripMenuItem_Click);
             // 
@@ -88,6 +88,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmDashBord";
             this.Text = "frmDashBord";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

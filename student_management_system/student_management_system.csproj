@@ -52,6 +52,12 @@
     <Compile Include="frmDashBord.Designer.cs">
       <DependentUpon>frmDashBord.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student\frmStudentEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\frmStudentEdit.Designer.cs">
+      <DependentUpon>frmStudentEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student\createstudent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmDashBord.resx">
       <DependentUpon>frmDashBord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\frmStudentEdit.resx">
+      <DependentUpon>frmStudentEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Student\createstudent.resx">
       <DependentUpon>createstudent.cs</DependentUpon>

@@ -104,6 +104,7 @@
             this.btnEdit.TabIndex = 0;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnAdd
             // 
@@ -161,6 +162,7 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.label1);
             this.Name = "frmStudentMaster";
+            this.ShowIcon = false;
             this.Text = "frmStudentMaster";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmStudentMaster_FormClosing);
             this.groupBox1.ResumeLayout(false);

@@ -23,11 +23,7 @@ namespace student_management_system.Student
             frmCreatStudent.ShowDialog();
         }
 
-        private void btnEdit_Click(object sender, EventArgs e)
-        {
-            frmEditStudent frmEditStudent = new frmEditStudent();
-            frmEditStudent.ShowDialog();
-        }
+        
 
         private void btnDelete_Click(object sender, EventArgs e)
         {

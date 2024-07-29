@@ -16,5 +16,26 @@ namespace student_management_system
         {
             InitializeComponent();
         }
+
+        private void studentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Student.frmStudentMaster f = new Student.frmStudentMaster();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void subjectsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Subject.FrmSubjectMaster subject = new Subject.FrmSubjectMaster();
+            subject.MdiParent = this;
+            subject.Show();
+        }
+
+        private void gradesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGeadeMaster grade = new frmGeadeMaster();
+            grade.MdiParent = this;
+            grade.Show();
+        }
     }
 }

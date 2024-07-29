@@ -58,12 +58,6 @@
     <Compile Include="Student\createstudent.Designer.cs">
       <DependentUpon>createstudent.cs</DependentUpon>
     </Compile>
-    <Compile Include="Student\frmEditStudent.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Student\frmEditStudent.Designer.cs">
-      <DependentUpon>frmEditStudent.cs</DependentUpon>
-    </Compile>
     <Compile Include="Student\frmStudentMaster.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,19 +70,19 @@
     <Compile Include="Subject\FrmSubjectMaster.Designer.cs">
       <DependentUpon>FrmSubjectMaster.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Grade\frmGeadeMaster.cs">
+    <Compile Include="Grade\frmGeadeMaster.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Grade\frmGeadeMaster.Designer.cs">
+    <Compile Include="Grade\frmGeadeMaster.Designer.cs">
       <DependentUpon>frmGeadeMaster.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDashBord.resx">
+      <DependentUpon>frmDashBord.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Student\createstudent.resx">
       <DependentUpon>createstudent.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Student\frmEditStudent.resx">
-      <DependentUpon>frmEditStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Student\frmStudentMaster.resx">
       <DependentUpon>frmStudentMaster.cs</DependentUpon>
@@ -96,7 +90,7 @@
     <EmbeddedResource Include="Subject\FrmSubjectMaster.resx">
       <DependentUpon>FrmSubjectMaster.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Grade\frmGeadeMaster.resx">
+    <EmbeddedResource Include="Grade\frmGeadeMaster.resx">
       <DependentUpon>frmGeadeMaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

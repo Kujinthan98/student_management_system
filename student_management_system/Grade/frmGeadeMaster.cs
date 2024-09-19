@@ -72,7 +72,7 @@ namespace student_management_system
             DialogResult dr = MessageBox.Show("Do you want to Delete ?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dr == DialogResult.Yes)
             {
-                
+                DAL.GradeDal.delete(3);
             }
             else
             {
@@ -82,7 +82,8 @@ namespace student_management_system
 
         private void btnRefresh_Click(object sender, EventArgs e)
         {
-            //refrush function
+            DataTable dt = DAL.GradeDal.GetAll();
+            dgvGrade.DataSource = dt;
         }
 
         private void frmGeadeMaster_FormClosing(object sender, FormClosingEventArgs e)
